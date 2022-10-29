@@ -17,8 +17,7 @@ from sklearn.neighbors import NearestNeighbors
 from sklearn.metrics.pairwise import cosine_similarity
 from surprise import SVD,Reader,Dataset
 import nltk
-nltk.download('stopwords')
-nltk.download('wordnet')
+
 
 
 df = pd.read_csv('movies.csv')
